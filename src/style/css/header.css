@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background: rebeccapurple;
+    background: darkblue;
     border-bottom: 1px solid black;
     border-radius: 0 0 0 30px;
   }
@@ -19,7 +19,7 @@
     width: 2.5rem;
     height: 2.5em;
     margin-left: 2rem;
-    background-image: url("../images/coins.svg");
+    background-image: url("./../../images/coins.svg");
     background-size: cover;
   }
   

@@ -1,0 +1,17 @@
+.inc-exp-container{
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+    font-size: 20px;
+}
+.plus{
+    padding-right: 80px;
+    
+}
+
+.plu{
+    color: #2ecc71;
+}
+.mine{
+    color: #c0392b;
+}
