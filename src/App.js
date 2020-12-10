@@ -6,9 +6,11 @@ import { Balance } from './componenets/Balance';
 import  AddTransaction   from './componenets/AddTransaction';
 import  IncomeExpenses   from './componenets/IncomeExpenses';
 import  History   from './componenets/History';
+import { GlobalProvider } from './context/GlobalState';
+
 function App() {
   return (
-    <>
+    <GlobalProvider>
     <Header />
     <div className="App">
     <div className="first-side">
@@ -24,7 +26,7 @@ function App() {
      
     </div>
    
-    </>
+    </GlobalProvider>
   );
 }
 
